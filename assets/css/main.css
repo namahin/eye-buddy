@@ -202,8 +202,8 @@ html {
  * Customize the background color to match your design.
  */
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+    background: #ffc63a;
+    color: #fff;
 }
 
 /*
@@ -772,7 +772,7 @@ h6 {
     font-weight: 700;
     margin: 0;
     line-height: 1.3;
-    color: #3b368c;
+    color: #FEC62D;
     font-family: "Josefin Sans", sans-serif;
 }
 
@@ -1351,7 +1351,7 @@ input[type="submit"] {
 
 .section-header .cate {
     margin-bottom: 38px;
-    color: #ff8a00;
+    color: #181D3D;
 }
 
 @media (max-width: 767px) {
@@ -1589,7 +1589,7 @@ input[type="submit"] {
 }
 
 .footer-top .logo {
-    max-width: 140px;
+    max-width: 200px;
     margin: 0 auto 30px;
 }
 
@@ -2406,7 +2406,7 @@ input[type="submit"] {
 }
 
 .header-section .header-wrapper .logo {
-    width: 140px;
+    width: 220px;
 }
 
 .header-section .header-wrapper .logo a {
@@ -2423,7 +2423,7 @@ input[type="submit"] {
         flex-wrap: wrap;
         justify-content: flex-end;
         margin-left: auto;
-        margin-right: 45px;
+        /*! margin-right: 45px; */
     }
 
     .header-section .header-wrapper .menu li {
@@ -2678,7 +2678,7 @@ input[type="submit"] {
 
 @media (min-width: 992px) {
     .header-section.header-cl-black .header-wrapper .menu li a {
-        color: #3b368c;
+        color: #181D3D;
     }
 
     .header-section.header-cl-black .header-wrapper .select-bar::after {
@@ -5467,6 +5467,7 @@ input[type="submit"] {
 
 .app-download-content .cate {
     margin-bottom: 24px;
+    color: #FEC62D;
 }
 
 @media (max-width: 1199px) {
