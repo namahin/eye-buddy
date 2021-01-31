@@ -3131,7 +3131,7 @@ input[type="submit"] {
 
 @media (max-width: 991px) {
     .banner-4 {
-        padding: 200px 0 150px;
+        padding: 80px 0 150px;
     }
 }
 
@@ -3388,6 +3388,9 @@ input[type="submit"] {
     .banner-content-1 .banner-button-group .button-4 {
         font-size: 14px;
         padding: 10px 25px;
+    }
+        .appsrc img {   
+            border-radius: 25px !important;
     }
 }
 
@@ -9582,7 +9585,11 @@ div[class*="elem"] img {
     .advance-feature-item.style-two .advance-feature-content {
         width: 100%;
     }
-    .appsrc{margin-bottom: 120px;}
+
+    .appsrc {
+        margin-bottom: 120px;
+        left: 0 !important;
+    }
 }
 
 @media (min-width: 1400px) {
@@ -16415,7 +16422,6 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 
 
-
 .appsrc {
     position: relative;
     left: -80px;
@@ -16425,7 +16431,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 .appsrc img {
     border-radius: 40px;
     width: 80% !important;
-    box-shadow: 0px 5px 25px 0px #1253fc82;
+    box-shadow: 0px 5px 25px 0px #1254fc5d;
     transition: linear .3s;
 }
 
@@ -16433,6 +16439,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     box-shadow: 0px 17px 24px 0px #1253fc14;
     bottom: 0px;
     position: relative;
+    transition: linear .3s;
 }
 
 .appsrc .right {
@@ -16443,7 +16450,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     z-index: 1;
 }
 
-.appsrc:hover {
+/* .appsrc:hover {
     transition: linear .3s;
 }
 
@@ -16454,5 +16461,29 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 
 .appsrc:hover .right {
     bottom: 0px;
+    transition: linear .3s;
+} */
+
+.appsrcActive {
+    transition: linear .3s;
+}
+
+.appsrcActive img {
+    transition: linear .3s;
+}
+
+.appsrcActive .left {
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+    transition: linear .3s;
+    z-index: 10;
+    box-shadow: 0px 17px 30px 0px #1254fc5b;
+}
+
+.appsrcActive .right {
+    box-shadow: 0px 17px 24px 0px #1253fc14;
+    bottom: 0px;
+    position: relative;
     transition: linear .3s;
 }
