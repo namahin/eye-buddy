@@ -13727,17 +13727,18 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 
 .error-wrapper {
     text-align: center;
-    max-width: 550px;
+    max-width: 580px;
     margin: 0 auto;
 }
 
 .error-wrapper .title {
     margin: 0;
-    font-size: 230px;
+    font-size: 72px;
     line-height: 1;
     text-shadow: 1.21px 4.851px 13.44px rgba(25, 83, 200, 0.37);
     color: #ffffff;
     margin-bottom: 60px;
+    text-transform: uppercase;
 }
 
 .error-wrapper .subtitle {
@@ -13747,8 +13748,9 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 
 @media (max-width: 575px) {
     .error-wrapper .title {
-        font-size: 130px;
+        font-size: 50px;
         margin-bottom: 40px;
+        line-height: 56px;
     }
 
     .error-wrapper .subtitle {
