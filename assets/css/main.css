@@ -3389,8 +3389,9 @@ input[type="submit"] {
         font-size: 14px;
         padding: 10px 25px;
     }
-        .appsrc img {   
-            border-radius: 25px !important;
+
+    .appsrc img {
+        border-radius: 25px !important;
     }
 }
 
@@ -16490,4 +16491,26 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
     transition: linear .3s;
 }
 
-.count-down{}
+.count-down {
+    max-width: 320px;
+    margin: auto;
+}
+
+.count-down .uk-countdown-number {
+    font-size: 28px;
+    line-height: 59px;
+    font-weight: 700;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 17px 24px 0px #9048b0b8;
+    color: #7400ff;
+}
+
+.count-down .uk-countdown-label {
+    font-size: 14px;
+    color: #fff;
+    text-shadow: 0px 2px 10px #1400ffb8;
+}
