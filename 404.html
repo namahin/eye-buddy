@@ -9,6 +9,10 @@
     <title>Mosto - Software and App Landing Pages HTML Template</title>
 
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/css/uikit.min.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/js/uikit.min.js"></script>
     <link rel="stylesheet" href="./assets/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/animate.css">
     <link rel="stylesheet" href="./assets/css/nice-select.css">
@@ -19,8 +23,8 @@
     <link rel="stylesheet" href="./assets/css/main.css">
 
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-    
-  
+
+
 </head>
 
 <body>
@@ -38,14 +42,34 @@
     <div class="error-section bg_img" data-background="./assets/images/404/404-bg.jpg">
         <div class="container">
             <div class="man1">
-                <img src="./assets/images/404/man_01.png" alt="404" class="wow bounceInUp" data-wow-duration=".5s" data-wow-delay=".5s">
+                <img src="./assets/images/404/man_01.png" alt="404" class="wow bounceInUp" data-wow-duration=".5s"
+                    data-wow-delay=".5s">
             </div>
             <div class="man2">
                 <img src="./assets/images/404/man_02.png" alt="404" class="wow bounceInUp" data-wow-duration=".5s">
             </div>
             <div class="error-wrapper wow bounceInDown" data-wow-duration=".7s" data-wow-delay="1s">
                 <h1 class="title">Coming Soon</h1>
-                <h3 class="subtitle">Timer Here</h3>
+                <div class="count-down">
+                    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2021-02-08T10:35:31+00:00">
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-days"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                        </div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-hours"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                        </div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-minutes"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                        </div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-seconds"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                        </div>
+                    </div>
+                </div>
                 <a href="index.html" class="button-5">Go Back</a>
             </div>
         </div>
