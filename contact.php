@@ -7,7 +7,7 @@ $phone = $_POST['phone'];
 $message = $_POST['message'];
 
 
-$to = 'pixeltheme96@gmail.com.@gmail.com';
+$to = '';
 
 $from = 'rock@mosto.com';
 
